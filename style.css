@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-image: url(./photos/vanishing-stripes.svg);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+}
+
+main, .container {
+    text-align: center;
+}
+
+.dashboard-content {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 250px; /* Add margin-bottom for space below the content */
+}
+
+form, .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2, .container {
+    text-align: center;
+    color: #333;
+}
+
+label, input {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
+}
+
+button, .container button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover, .container button:hover {
+    background-color: #258cd1;
+}
+
+button:active, .container button:active {
+    background-color: #1a5488;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        margin: 10px auto;
+    }
+}
